@@ -1,0 +1,156 @@
+/*****BASE STYLES*****/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#about, #work, #contact {
+    height: 600px;
+}
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+/*****HEADER SECTION*****/
+header {
+    height: 800px;
+    background: url('../img/background-clipping-mask.png');
+    background-size: cover;
+}
+header h1{
+  padding: 50px 0;
+  font-family: 'Lora',serif;
+  font-size: 30px;
+  color: #BBC085;
+}
+nav {
+    float: right;
+    padding: 75px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Source Sans Pro',serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: auto;
+    clear: both;
+    font-family: 'Lora',serif;
+    font-size: 72px;
+    color: #9b9b9b;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+
+/*****ABOUT SECTION*****/
+#about .full-width{
+  padding: 80px 0;
+}
+#about h2{
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+#about p {
+  font-family: 'Source Sans Pro', serif;
+  font-size: 21 px;
+  color: #7F7F7F;
+  line-height: 40px;
+  padding-right:50px;
+}
+#search {
+  font-style: italic
+}
+/*****WORK SECTION*****/
+#work {
+  background-color: #F9CEB7;
+  text-align: center;
+}
+#work .full-width{
+  padding: 115px 0;
+}
+
+#work img{
+  padding-bottom: 30px;
+}
+#work h3{
+  font-family: 'Source Sans Pro',serif;
+  color: #2B2B2B;
+  font-size: 24px;
+  width: 155 px;
+  margin: 0 auto;
+}
+#work p{
+  font-family: 'Lora',serif;
+  font-size: 18px;
+  line-height: 24px;
+  color:#2B2B2B;
+  padding: 0 35px;
+}
+
+/*****CONTACT SECTION*****/
+#contact{
+  background-color: #EBEBEB;
+}
+#contact .full-width{
+  padding: 110px 0;
+}
+#contact img#contact-img{
+  border: 12px solid white;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Lora',serif;
+    font-size: 36px;
+    color: #2B2B2B;
+}
+#contact #email-header{
+    font-family: 'Source Sans Pro', serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-family: 'Source Sans Pro',serif;
+    color:#2B2B2B;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    font-family: 'Source Sans Pro', serif;
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
